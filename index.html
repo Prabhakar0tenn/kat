@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>50 Most Popular Cat Breeds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>50 Most Popular Cat Breeds</h1>
+    <p>Discover the cutest and most fascinating cat breeds in a fun and interactive way!</p>
+    <input type="text" id="search-input" placeholder="Search for a cat breed..." />
+  </header>
+
+  <main>
+    <div id="cat-breed-container" class="grid-container">
+      <!-- Cat breed cards will be injected here by script.js -->
+    </div>
+  </main>
+
+  <!-- Modal Structure -->
+  <div id="cat-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <img id="modal-img" alt="Cat Breed" />
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <h3>Did You Know?</h3>
+      <ul id="modal-facts"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
